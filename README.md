@@ -1,4 +1,4 @@
-# Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques
+# **Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques**
 The project aimed to classify Gutenberg texts accurately. Employing advanced NLP methodologies, it covered collection, preprocessing, feature engineering, and model evaluation for literary work classification. as part of the University of Ottawa's 2023 NLP course.
   - Required libraries: scikit-learn, pandas, matplotlib.
   - Execute cells in a Jupyter Notebook environment.
@@ -9,6 +9,8 @@ Text Classification Task  to categorize a 5 Gutenberg texts into their respectiv
 ```python
 selected_books = ['austen-emma.txt','carroll-alice.txt','chesterton-brown.txt','edgeworth-parents.txt','shakespeare-hamlet.txt']
 ```
+## **System workflow**
+![image](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/50da9f32-1b51-487b-9ad1-88d7c54fcc9c)
 
 ## **Key Tasks Undertaken**
 
@@ -51,6 +53,44 @@ selected_books = ['austen-emma.txt','carroll-alice.txt','chesterton-brown.txt','
     - Shuffle Dataset
         
 3. **Feature Engineering:**
-4. **Modeling:**
-5. **Model Evaluation**
-6. **Error Analysis of Champion Model**
+   - Transformation
+     + Bag of Word (BOW):It represents the occurrence of words within a document, it involves two things:
+        * A vocabulary of known words.
+        * A measure of the presence of known words.
+     + Term Frequency - Inverse Document Frequency (TF-IDF):a technique to quantify words in a set of documents. We compute         a score for each word to signify its importance in the document and corpus.
+     + N-grams
+     + Word Embedding (Word2Vec)
+  ![merge_from_ofoct](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/731f785c-196d-482f-9c65-cfab0f824dba)
+
+   - Encoding
+5. **Modeling:**: For each technique of the above, these following models are trained and tested.
+   + Random Forest
+   + Gaussian Naive Bayes
+   + K Nearest Neighbors
+     
+7. **Model Evaluation**
+   - BOW
+                   ![image](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/3f909d6f-87f7-4f76-87d6-a257740eb5c7)
+
+   - TF-IDF
+                   ![image](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/19265217-c676-4406-ab2d-301aafb7efc2)
+
+   - N-grams
+                 ![image](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/cd056c7b-a18c-4f1d-ab5f-a0d55d90d125)
+     
+   - Word2Vec
+                 ![image](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/ca1deacc-8aac-4b4c-972d-dc3d44727d09)
+
+    
+9. **Error Analysis of Champion Model**:
+```python
+Best Model= Gaussian Naive Bayes
+Accacruy and Champion Embedding: [0.98, 'N-Grams']
+```
+    
+  - By reducing the number of words, it will lead to reduce the accuracy of our champion model
+      ![image](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/e4f814b2-9010-4fd8-b6fd-b63411ff5112)
+
+- Indicate that the n estimators’ parameter is not significantly impacting the model's performance on our dataset.
+      ![image](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/e4b80ce7-e39c-4fbc-a28b-897b336dbcc7)
+
