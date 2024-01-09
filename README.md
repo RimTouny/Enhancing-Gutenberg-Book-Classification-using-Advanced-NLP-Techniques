@@ -52,7 +52,7 @@ selected_books = ['austen-emma.txt','carroll-alice.txt','chesterton-brown.txt','
 
     - Shuffle Dataset
         
-3. **Feature Engineering:**
+2. **Feature Engineering:**
    - Transformation
      + Bag of Word (BOW):It represents the occurrence of words within a document, it involves two things:
         * A vocabulary of known words.
@@ -65,12 +65,12 @@ selected_books = ['austen-emma.txt','carroll-alice.txt','chesterton-brown.txt','
 ![merge_from_ofoct](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/731f785c-196d-482f-9c65-cfab0f824dba)
 
    - Encoding
-5. **Modeling:**: For each technique of the above, these following models are trained and tested.
+3. **Modeling:**: For each technique of the above, these following models are trained and tested.
    + Random Forest
    + Gaussian Naive Bayes
    + K Nearest Neighbors
      
-7. **Model Evaluation**
+4. **Model Evaluation**
    - BOW
                    ![image](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/3f909d6f-87f7-4f76-87d6-a257740eb5c7)
 
@@ -84,15 +84,17 @@ selected_books = ['austen-emma.txt','carroll-alice.txt','chesterton-brown.txt','
                  ![image](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/ca1deacc-8aac-4b4c-972d-dc3d44727d09)
 
     
-9. **Error Analysis of Champion Model**:
+5. **Error Analysis of Champion Model**:
 ```python
 Best Model= Gaussian Naive Bayes
 Accacruy and Champion Embedding: [0.98, 'N-Grams']
 ```
     
   - By reducing the number of words, it will lead to reduce the accuracy of our champion model
-      ![image](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/e4f814b2-9010-4fd8-b6fd-b63411ff5112)
+
+    ![image](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/e4f814b2-9010-4fd8-b6fd-b63411ff5112)
 
 - Indicate that the n estimators’ parameter is not significantly impacting the model's performance on our dataset.
-      ![image](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/e4b80ce7-e39c-4fbc-a28b-897b336dbcc7)
+
+  ![image](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/e4b80ce7-e39c-4fbc-a28b-897b336dbcc7)
 
