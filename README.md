@@ -65,7 +65,7 @@ selected_books = ['austen-emma.txt','carroll-alice.txt','chesterton-brown.txt','
 ![merge_from_ofoct](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/731f785c-196d-482f-9c65-cfab0f824dba)
 
    - Encoding
-3. **Modeling:**: For each technique of the above, these following models are trained and tested.
+3. **Modeling:** For each technique of the above, these following models are trained and tested.
    + Random Forest
    + Gaussian Naive Bayes
    + K Nearest Neighbors
