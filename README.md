@@ -60,7 +60,9 @@ selected_books = ['austen-emma.txt','carroll-alice.txt','chesterton-brown.txt','
      + Term Frequency - Inverse Document Frequency (TF-IDF):a technique to quantify words in a set of documents. We compute         a score for each word to signify its importance in the document and corpus.
      + N-grams
      + Word Embedding (Word2Vec)
-  ![merge_from_ofoct](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/731f785c-196d-482f-9c65-cfab0f824dba)
+
+
+![merge_from_ofoct](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/731f785c-196d-482f-9c65-cfab0f824dba)
 
    - Encoding
 5. **Modeling:**: For each technique of the above, these following models are trained and tested.
