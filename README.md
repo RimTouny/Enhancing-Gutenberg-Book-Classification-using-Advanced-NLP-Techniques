@@ -2,7 +2,7 @@
 The project aimed to classify Gutenberg texts accurately. Employing advanced NLP methodologies, it covered collection, preprocessing, feature engineering, and model evaluation for literary work classification. as part of the University of Ottawa's 2023 NLP course.
   - Required libraries: scikit-learn, pandas, matplotlib.
   - Execute cells in a Jupyter Notebook environment.
-  - The uploaded code has been executed and tested successfully within the [Goole Colab] (https://colab.google/) environment.
+  - The uploaded code has been executed and tested successfully within the (Goole Colab) [https://colab.google/] environment.
 
 ## Multi-class classification problem
 Text Classification Task  to categorize a 5 Gutenberg texts into their respective literary works or books.
