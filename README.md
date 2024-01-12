@@ -102,13 +102,33 @@ Accacruy and Champion Embedding: [0.98, 'N-Grams']
     
   - By reducing the number of words, it will lead to reduce the accuracy of our champion model
 
-     <p align="center">
-      <img src="https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/e4f814b2-9010-4fd8-b6fd-b63411ff5112"/>
-    </p>
+    ```python
+        Accuracy with number of words 100 is 98.67 %
+        
+        Accuracy with number of words 70 is 97.33 %
+        
+        Accuracy with number of words 50 is 94.67 %
+        
+        Accuracy with number of words 40 is 94.67 %
+        
+        Accuracy with number of words 30 is 92.0 %
+        
+        Accuracy with number of words 20 is 84.0 %
+     ```
+    
 
 - Indicate that the n estimators’ parameter is not significantly impacting the model's performance on our dataset.
 
-     <p align="center">
-      <img src="https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/e4b80ce7-e39c-4fbc-a28b-897b336dbcc7)"/>
-    </p>
-
+    ```python
+        Accuracy with n estimators100 is 98.67 %
+        
+        Accuracy with n estimators70 is 98.67 %
+        
+        Accuracy with n estimators50 is 98.67 %
+        
+        Accuracy with n estimators40 is 98.67 %
+        
+        Accuracy with n estimators30 is 98.67 %
+        
+        Accuracy with n estimators20 is 98.67 %
+     ```
