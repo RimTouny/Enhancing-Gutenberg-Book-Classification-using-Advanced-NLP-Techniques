@@ -74,16 +74,24 @@ selected_books = ['austen-emma.txt','carroll-alice.txt','chesterton-brown.txt','
      
 4. **Model Evaluation**
    - BOW
-                   ![image](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/3f909d6f-87f7-4f76-87d6-a257740eb5c7)
+      <p align="center">
+        <img src="https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/3f909d6f-87f7-4f76-87d6-a257740eb5c7"/>
+      </p>
 
    - TF-IDF
-                   ![image](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/19265217-c676-4406-ab2d-301aafb7efc2)
+      <p align="center">
+        <img src="https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/19265217-c676-4406-ab2d-301aafb7efc2"/>
+      </p>
 
    - N-grams
-                 ![image](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/cd056c7b-a18c-4f1d-ab5f-a0d55d90d125)
+      <p align="center">
+        <img src="(https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/cd056c7b-a18c-4f1d-ab5f-a0d55d90d125"/>
+      </p>
      
    - Word2Vec
-                 ![image](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/ca1deacc-8aac-4b4c-972d-dc3d44727d09)
+      <p align="center">
+        <img src="https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/ca1deacc-8aac-4b4c-972d-dc3d44727d09"/>
+      </p>
 
     
 5. **Error Analysis of Champion Model**:
@@ -94,9 +102,13 @@ Accacruy and Champion Embedding: [0.98, 'N-Grams']
     
   - By reducing the number of words, it will lead to reduce the accuracy of our champion model
 
-    ![image](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/e4f814b2-9010-4fd8-b6fd-b63411ff5112)
+     <p align="center">
+      <img src="https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/e4f814b2-9010-4fd8-b6fd-b63411ff5112"/>
+    </p>
 
 - Indicate that the n estimators’ parameter is not significantly impacting the model's performance on our dataset.
 
-  ![image](https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/e4b80ce7-e39c-4fbc-a28b-897b336dbcc7)
+     <p align="center">
+      <img src="https://github.com/RimTouny/Enhancing-Gutenberg-Book-Classification-using-Advanced-NLP-Techniques/assets/48333870/e4b80ce7-e39c-4fbc-a28b-897b336dbcc7)"/>
+    </p>
 
